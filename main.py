@@ -25,4 +25,4 @@ def hello_world():
     return 'Hello World!'
 
 if __name__ == '__main__':
-    app.run('0.0.0.0',8008)
+    app.run('0.0.0.0',80)
