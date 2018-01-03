@@ -2,7 +2,7 @@ from flask import Flask
 import requests
 app = Flask(__name__)
 
-@app.route('/hello')
+@app.route('/flask2/hello')
 def hello_world():
     return 'Hello World! from flask2'
 
