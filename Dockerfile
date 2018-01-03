@@ -22,6 +22,7 @@ RUN apk add --update \
     python \
     py-pip \
   && pip install flask -U \
+  && pip install requests
   && rm -rf /var/cache/apk/* \
   && adduser -D app \
   && mkdir /foo  \
